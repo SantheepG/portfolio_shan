@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Santheep G</title>
+    <link rel="icon" type="image/x-icon" href="Images/tabicon.png" />
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/projects.css" />
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arizonia&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=M+PLUS+1+Code:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bodyContainer">
+      <!-- navigation bar -->
+      <nav class="navbar" id="navbar">
+        <div class="navbar__container">
+          <a href="#" class="navbar__logo">Ganeswaran Santheep</a>
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <div class="cl-effect-5">
+            <a href="#about_container"><span data-hover="About">About</span></a>
+
+            <a href="#projects"><span data-hover="Projects">Projects</span></a>
+            <a href="#end"><span data-hover="Contact">Contact</span></a>
+          </div>
+        </div>
+      </nav>
+
+      <div id="mobi_nav_toggle">
+        <svg
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          width="30"
+        >
+          <path
+            fill="#ffffff"
+            fill-rule="evenodd"
+            d="M19 4a1 1 0 01-1 1H2a1 1 0 010-2h16a1 1 0 011 1zm0 6a1 1 0 01-1 1H2a1 1 0 110-2h16a1 1 0 011 1zm-1 7a1 1 0 100-2H2a1 1 0 100 2h16z"
+          ></path>
+        </svg>
+      </div>
+
+      <div id="mobile_nav">
+        <div id="mobi_nav_close">
+          <svg
+            viewBox="0 0 24 24"
+            width="54"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <g id="Menu / Close_MD">
+                <path
+                  id="Vector"
+                  d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18"
+                  stroke="#ffffff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="mobi_nav__container">
+          <a href="#about_container"><span data-hover="About">About</span></a>
+          <a href="#experiences"
+            ><span data-hover="Experience">Experience</span></a
+          >
+          <a href="#projects"><span data-hover="Projects">Projects</span></a>
+          <a href="#end"><span data-hover="Contact">Contact</span></a>
+        </div>
+      </div>
+
+      <!-- home section -->
+      <section class="home">
+        <div class="img-container">
+          <img class="myImg" src="imgs/latest4.png" alt="profile" />
+        </div>
+        <div class="intro">
+          <p class="hero__text">Hello, I'm</p>
+          <div class="hero__title">Ganeswaran Santheep</div>
+          <h1 href=""
+          class="typewrite"
+          data-period="2000"
+          data-type='["Striving programmer", "Aspiring full-stack developer", "Feel good UI designer"]'>
+        </h1>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section class="about_container" id="about_container">
+        <div class="desc">
+          <h1>About</h1>
+          Hello, I am Santheep, a relentless explorer of the virtual frontiers and a budding software engineer on an epic quest for knowledge and innovation. With each stroke of my keyboard, I try to mold ideas into reality, blending function and aesthetics with the finesse of a virtuoso.
+        </div>
+        <div class="edu">
+          <h2>Education</h2>
+          <h3>BEng (Hons) Software Engineering – University of Westminster - UK</h3>
+          <h5>2021 - Present</h5>
+          <div class="modules">  
+                     
+            <div class="y1">
+              <h3>Year 01 modules</h3> 
+              <ul>
+                <li>Software Development I - Python</li>
+                <li>Software Development II - Java</li>
+                <li>Web Design and Development </li>
+                <li>Computer Systems Fundamentals </li>
+                <li>Mathematics for Computing </li>
+                <li>Trends in Computer Science</li>
+              </ul>
+            </div>
+            <div class="y2">
+              <h3>Year 02 modules</h3>
+              <ul>
+                <li>Object-oriented programming - Java</li>
+                <li>Software Development Group Project</li>
+                <li>Mobile Application development - Kotlin</li>
+                <li>Machine learning & Data mining </li>
+                <li>Algorithms: Theory, Design and Implementation </li>
+                <li>Database Systems </li>
+              </ul>
+            </div>
+          </div>
+          <h3>G.C.E Advance level - Physical science stream</h3>
+          <h5>2006 - 2020</h5>          
+          </div>    
+        </div>
+
+        <section class="tech-stack">
+          
+          <!--
+          <div class="grid-container">
+            <div class="grid-item"><img src="imgs/js.png" alt="tech" /></div>
+            <div class="grid-item"><img src="imgs/java.png" alt="tech" /></div>
+            <div class="grid-item"><img src="imgs/python.png" alt="tech" /></div>
+            <div class="grid-item"><img src="imgs/kotlin.png" alt="tech" /></div>
+            <div class="grid-item"><img src="imgs/R.png" alt="tech" /></div>
+            <div class="grid-item"><img src="imgs/HTML5.png" alt="tech" /></div>
+            <div class="grid-item"><img src="imgs/css.png" alt="tech" /></div>
+            <div class="grid-item"><img src="imgs/React.png" alt="tech" /></div>
+            <div class="grid-item"><img src="imgs/Node.png" alt="tech" /></div>
+            <div class="grid-item"><img src="imgs/flask.png" alt="tech" /></div>
+            <div class="grid-item"><img src="imgs/mysql.png" alt="tech" /></div>
+            <div class="grid-item"><img src="imgs/mongodb.png" alt="tech" /></div>
+            <div class="grid-item"><img src="imgs/git.png" alt="tech" /></div>
+            <div class="grid-item"><img src="imgs/photoshop.png" alt="tech" /></div>
+          </div> -->
+          <h1>Technologies I've been working with recently</h1>
+          <div class="grid">
+            <div class="row">
+              <h2>Languages</h2>
+              <div class="stack_1">
+                <li>Java</li>
+                <li>Python</li>
+                <li>R</li>
+                <li>Kotlin</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </div>
+            </div>
+  
+            <div class="row">
+              <h2>Frameworks</h2>
+              <div class="stack_2">
+                <li>ReactJS</li>
+                <li>Flask</li>
+              </div>
+            </div>
+  
+            <div class="row">
+              <h2>Database</h2>
+              <div class="stack_2">
+                <li>MySQL</li>
+                <li>MongoDB</li>
+              </div>
+            </div>
+  
+            <div class="row">
+              <h2>Tools</h2>
+              <div class="stack_3">
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Android Studio</li>
+                <li>Visual Studio Code</li>
+                <li>IntelliJ</li>
+                <li>PyCharm</li>
+                <li>NetBeans</li>
+                <li>MySQL</li>
+              </div>
+            </div>
+  
+            <div class="row">
+              <h2>Other</h2>
+              <div class="stack_3">
+
+                <li>Adobe Photoshop</li>
+                <li>Figma</li>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>  
+      <!-- Projects section -->
+      <section class="projects" id="projects">
+        <div class="title">
+          <h3>04.</h3>
+          <h2>Some Things I’ve Built</h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="project project1">
+          <div class="project-image">
+            <img src="Images/Weathreo.png" alt="Weathreo" />
+          </div>
+          <div class="project-details">
+            <h3>Featured Project</h3>
+            <h1>Weathreo</h1>
+
+            <div class="description">
+              <p>
+                A weather forecast application is designed to provide accurate
+                and up-to-date weather information in various locations to
+                users.
+              </p>
+            </div>
+            <ul>
+              <li>ReactJS</li>
+              <li>CSS3</li>
+              <li>Open Weather API</li>
+              <li>GEO API</li>
+            </ul>
+            <div class="project-links">
+              <a target="_blank" href="https://github.com/Isw200/weatherapp">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                  ></path>
+                </svg>
+              </a>
+              <a target="_blank" href="https://isw200.github.io/weatherapp/">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21 3L15 3M21 3L12 12M21 3V9"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project project2">
+          <div class="project-details">
+            <h3>Featured Project</h3>
+            <h1>coderdojo.lk</h1>
+
+            <div class="description">
+              <p>
+                Voluntary contribution with Mr. Prabhath Mannapperuma to open
+                source project of STEMUP Education Foundation through Github.
+              </p>
+            </div>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Tailwind CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <!-- <a href="http://">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  >
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path></svg>
+              </a> -->
+              <a target="_blank" href="https://coderdojo.lk/">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21 3L15 3M21 3L12 12M21 3V9"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-image">
+            <img src="Images/coderdojolk.png" alt="Weathreo" />
+          </div>
+        </div>
+
+        <div class="project project1">
+          <div class="project-image">
+            <img src="Images/neic.png" alt="Weathreo" />
+          </div>
+          <div class="project-details">
+            <h3>Featured Project</h3>
+            <h1>NEIC</h1>
+
+            <div class="description">
+              <p>
+                The official website of Central Environmental Authority of Sri
+                Lanka Government. The project by Airstudios.
+                <br />
+                Role: Front End Developer
+              </p>
+            </div>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Tailwind CSS</li>
+            </ul>
+            <div class="project-links">
+              <!-- <a href="https://github.com/Isw200/weatherapp">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  >
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path></svg>
+              </a> -->
+              <a target="_blank" href="http://www.neic.cea.lk/">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21 3L15 3M21 3L12 12M21 3V9"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project project2">
+          <div class="project-details">
+            <h3>Featured Project</h3>
+            <h1>Qonvo</h1>
+
+            <div class="description">
+              <p>
+                A privacy protected Meeting Platform. This is my second year
+                group project.
+                <br />
+                Technologies - Deep Learning (classification) - Python
+                <br />Media Pipe
+              </p>
+            </div>
+            <ul>
+              <li>Agora SDK</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Web TRC</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <!-- <a href="https://github.com/Isw200/Qonvo">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  >
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path></svg>
+              </a> -->
+              <a target="_blank" href="https://isw200.github.io/Qonvo/">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21 3L15 3M21 3L12 12M21 3V9"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-image">
+            <img src="Images/qonvo.png" alt="Weathreo" />
+          </div>
+        </div>
+
+        <div class="project project1">
+          <div class="project-image">
+            <img src="Images/3dbox.png" alt="Weathreo" />
+          </div>
+          <div class="project-details">
+            <h3>Featured Project</h3>
+            <h1>3D Box</h1>
+
+            <div class="description">
+              <p>
+                A sample landing page website webpage using 3D models for 3D
+                animation company.
+              </p>
+            </div>
+            <ul>
+              <li>ReactJS</li>
+              <li>CSS3</li>
+              <li>Spline</li>
+            </ul>
+            <div class="project-links">
+              <a target="_blank" href="https://github.com/Isw200/threed">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                  ></path>
+                </svg>
+              </a>
+              <a target="_blank" href="https://isw200.github.io/threed/">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21 3L15 3M21 3L12 12M21 3V9"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project project2">
+          <div class="project-details">
+            <h3>Featured Project</h3>
+            <h1>Raia</h1>
+
+            <div class="description">
+              <p>A sample landing page website webpage for a fashion store.</p>
+            </div>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <a
+                target="_blank"
+                href="https://github.com/Isw200/raia.github.io"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                target="_blank"
+                href="https://isw200.github.io/raia.github.io/"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21 3L15 3M21 3L12 12M21 3V9"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-image">
+            <img src="Images/raia.png" alt="Weathreo" />
+          </div>
+        </div>
+
+        <div class="project project1">
+          <div class="project-image">
+            <img src="Images/skincons.png" alt="Weathreo" />
+          </div>
+          <div class="project-details">
+            <h3>Featured Project</h3>
+            <h1>Consultation Management</h1>
+
+            <div class="description">
+              <p>
+                A full stack application consultations management system using
+                OOP concepts for a skin consultation centre.
+              </p>
+            </div>
+            <ul>
+              <li>Java</li>
+              <li>Java-Swing</li>
+            </ul>
+            <!-- <div class="project-links">
+              <a href="https://github.com/Isw200/threed">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  >
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path></svg>
+              </a>
+              <a href="https://isw200.github.io/threed/">
+                <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+                  <path d="M21 3L15 3M21 3L12 12M21 3V9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  </path>
+                  <path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke="currentColor" stroke-linecap="round"></path> </svg>
+              </a>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+    <!-- JS Links -->
+    <script src="scripts/cvbutton.js"></script>
+    <script src="scripts/typewriter.js"></script>
+    <script src="scripts/nav.js"></script>
+  </body>
+</html>

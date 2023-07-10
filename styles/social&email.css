@@ -1,0 +1,69 @@
+.socialMedia {
+  position: fixed;
+  bottom: 0;
+  left: 3em;
+}
+@media screen and (max-width: 768px) {
+  .socialMedia {
+    display: none;
+  }
+}
+.socialMedia .social__icons li {
+  width: 25px;
+  margin-top: 2em;
+  list-style: none;
+  transition: all 0.3s;
+}
+.socialMedia .social__icons li a {
+  text-decoration: none;
+  color: #a2cfff5f;
+}
+.socialMedia .social__icons #bottom_bar {
+  width: 1px;
+  height: 100px;
+  background: #a2cfff5f;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+.socialMedia .social__icons li:hover {
+  color: #00ffc5;
+  transform: translateY(-10px);
+}
+.socialMedia .social__icons a:hover {
+  color: #00ffc5;
+}
+
+/* email */
+.email {
+  position: fixed;
+  bottom: 12em;
+  right: -7em;
+  display: flex;
+  gap: 2em;
+  transform: rotate(90deg);
+}
+
+@media screen and (max-width: 768px) {
+  .email {
+    display: none;
+  }
+}
+.email a {
+  text-decoration: none;
+  color: #a2cfff5f;
+  font-family: "M PLUS 1 Code", sans-serif;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+.email #bottom_bar {
+  width: 100px;
+  height: 1px;
+  background: #a2cfff5f;
+  margin: auto;
+  list-style: none;
+}
+
+.email a:hover {
+  color: #00ffc5;
+  transform: translateX(-10px);
+}

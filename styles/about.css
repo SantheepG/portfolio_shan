@@ -1,0 +1,123 @@
+.about_container {
+    text-align: center;
+    display: block;
+    width: 60%;
+    margin: auto;
+    color: white;
+    margin-top: 200px;
+  }
+  .about_container h1 {
+    color: #d3d0ff;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  .desc{
+    font-family: "Fantacy";
+    color: #d3d0ffff;
+  }
+  .edu h2, h3, h4, h5 {
+    color: #d3d0ff;
+    font-weight: 300;
+  } 
+  .edu h2 {
+    font-size: 2rem;
+  }
+
+  .edu h3{
+    font-size: 1.5em;
+  }
+
+  .modules {
+    display: flex;
+  }
+  
+  .y1,
+  .y2 {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #d3d0ff;
+  }
+  .y1:hover, .y2:hover {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #911919;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #d3d0ff;
+    background-color: #00aeff32;
+  }
+
+
+  .y1 ul,
+  .y2 ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .y1 li,
+  .y2 li {
+    margin-bottom: 10px;
+  }
+/* Technologies  */
+.tech-stack {
+  width: 60%;
+  margin: 5em auto;
+}
+.tech-stack h1 {
+  text-align: center;
+  color: #d3d0ff;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+.tech-stack .grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1em;
+  margin: 0 auto;
+  text-align: center;
+}
+.tech-stack .grid .row {
+  background-color: #00aeff06;
+  border-radius: 5px;
+  padding: 1em;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #ccc;
+}
+.tech-stack .grid .row h2 {
+  color: #d3d0ff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.6em;
+}
+.tech-stack .grid .row li {
+  color: #c6c2ff89;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5em;
+  list-style: none;
+}
+.tech-stack .grid .row:hover {
+  background-color: #00aeff32;
+  color: #fff;
+  border: 1px solid #911919;
+}
+@media screen and (max-width: 768px) {
+  .tech-stack {
+    width: 90%;
+  }
+  .tech-stack h1 {
+    font-size: 1.5rem;
+  }
+  .tech-stack .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .tech-stack .grid .row h2 {
+    color: #d3d0ff;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+}
