@@ -1,16 +1,18 @@
 /* Projects */
 .projects {
     width: 60%;
-    margin: 7em auto;
+    margin: 10em auto;
   }
   @media screen and (max-width: 768px) {
     .projects {
       width: 90%;
     }
     .title h3 {
+      color: #d3d0ff;
       font-size: 1.2rem;
     }
     .title h2 {
+      color: #d3d0ff;
       font-size: 2rem;
     }
     .title .line {
@@ -18,9 +20,13 @@
     }
     .projects .title h2 {
       font-size: 1.5rem;
+      
     }
   }
-  
+  .title h2 {
+    color: #d3d0ff;
+    font-size: 2rem;
+  } 
   .projects .project {
     width: 100%;
     margin: 15em auto;
@@ -176,57 +182,6 @@
       width: 100%;
     }
   
-  }
-  
-  /* referances */
-  .referance {
-    width: 60%;
-    margin: 7em auto;
-  }
-  @media screen and (max-width: 768px) {
-    .referance {
-      display: none;
-    }
-  }
-  
-  .referance .refContainer {
-    margin-top: 3em;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2em;
-  }
-  .referance .refContainer .ref {
-    background-color: #2432632e;
-    box-shadow: 0 0 10px 0 #00000021;
-    color: #d3d0ff;
-    line-height: 2em;
-    padding: 3em;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    transition: all 0.3s ease-in-out;
-  }
-  .referance .refContainer .ref:hover {
-    background-color: #243263;
-  }
-  
-  .referance .refContainer .ref .photo {
-    width: 100%;
-  }
-  .referance .refContainer img {
-    width: 100%;
-    border-radius: 50%;
-  }
-  .referance .refContainer .ref h1 {
-    text-align: center;
-  }
-  .referance .refContainer .ref p {
-    text-align: center;
-    color: #d3d0ff67;
-  }
-  .referance .refContainer .ref a {
-    text-align: center;
-    color: #d3d0ff67;
   }
   
   /* End */
