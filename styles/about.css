@@ -6,15 +6,30 @@
     color: white;
     margin-top: 200px;
   }
-  .about_container h1 {
-    color: #d3d0ff;
+  
+  .header {
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .horizontal-bar {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #00ffdd;
+    margin-left: 10px;
+  }
+  h1 {
+    color: #00ffdd;
     font-size: 2rem;
     font-weight: 300;
   }
   .desc{
     font-family: "Fantacy";
     color: #d3d0ffff;
+    margin-bottom: 10%;
   }
+
   .edu h2, h3, h4, h5 {
     color: #d3d0ff;
     font-weight: 300;
@@ -69,7 +84,7 @@
 
 .tech-stack h1 {
   text-align: center;
-  color: #d3d0ff;
+  color: #ffffff;
   font-size: 2rem;
   font-weight: 300;
   margin-bottom: 1em;

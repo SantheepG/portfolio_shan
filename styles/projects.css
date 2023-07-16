@@ -4,6 +4,12 @@
     margin: 10em auto;
     
   }
+  h1 {
+    color: #00ffdd;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  
   @media screen and (max-width: 768px) {
     .projects {
       width: 90%;
@@ -84,7 +90,7 @@
     box-shadow: 0 0 10px 0 #0000002f;
     color: #d3d0ff;
     line-height: 2em;
-    padding: 3em;
+    padding: 2em;
     z-index: 100;
     border-radius: 5px;
   }
@@ -111,7 +117,7 @@
   .projects .project2 .project-image {
     position: absolute;
     right: 20%;
-    width: 37%;
+    width: 36%;
     z-index: -1;
   }
   .projects .project .project-image::before {
@@ -149,6 +155,7 @@
   }
   .description{
     border: 1px solid #911919;
+    
   }
   @media screen and (max-width: 768px) {
     .projects .project {
@@ -187,55 +194,8 @@
     }
   
   }
-  
-  /* End */
-  .end {
-    width: 60%;
-    margin: 17em auto 2em auto;
-  }
-  .end .title {
-    flex-direction: column;
-    margin: auto;
-    align-items: center;
-    margin-bottom: 2em;
-  }
-  .end p {
-    color: #d3d0ff78;
-    font-size: 1.2rem;
-    font-weight: 100;
-    text-align: center;
-    line-height: 2em;
-    width: 70%;
-    margin: auto;
-  }
-  .cv_btn_bottom {
-    margin: 4em auto;
-    display: flex;
-    justify-content: center;
-  }
-  
-  /* Footer */
-  .footer {
-    margin-top: 15em;
-    width: 100%;
-    background-color: #0d1a484e;
-    padding: 2em 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #00ffc5;
-  }
-  .footer p {
-    text-align: center;
-    font-family: "M PLUS 1 Code", sans-serif;
-    font-weight: 100;
-  }
-  .footer h2 {
-    color: #00ffc371;
-    text-align: center;
-    margin-top: 1em;
-    font-family: "Arizonia", cursive;
-  }
+
+ 
   @media screen and (max-width: 768px) {
     .end {
       width: 100%;

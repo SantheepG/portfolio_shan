@@ -42,12 +42,11 @@ body {
     align-items: center;
     margin-left: 300px;
 
-    border-radius: 5px;
-    
   }
   .img-container:hover {
-    box-shadow: 0 0 0 2px rgba(128, 0, 0, 1);
-    border-radius: 25px;
+    border-radius: 45px;
+    opacity: 0.9;
+    filter: drop-shadow(2px 2px 4px white);
   }
   .img-container img {
     max-width: 100%; 
@@ -56,7 +55,7 @@ body {
   }
 
   img{
-    border-radius: 25px;
+    border-radius: 65px;
     opacity: 0.9;
     filter: drop-shadow(2px 2px 4px white);
   }
@@ -73,7 +72,7 @@ body {
 .typewrite {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #d3d0ff56;
+    color: #ecebfb8b;
     margin-bottom: 0.2em;
   }
 
@@ -82,7 +81,7 @@ body {
     font-family: "M PLUS 1 Code", sans-serif;
     font-size: 1.3rem;
     margin-bottom: 1em;
-    color: #fff;
+    color: #00ffdd;
   }
   
   .hero__title {

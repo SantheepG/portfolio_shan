@@ -113,11 +113,18 @@
       <!-- About section -->
       <section class="about_container" id="about_container">
         <div class="desc">
-          <h1>About</h1>
+          <div class="header">
+            <h1>About</h1>
+            <div class="horizontal-bar"></div>
+          </div>
           Hello, I am Santheep, a relentless explorer of the virtual frontiers and a budding software engineer on an epic quest for knowledge and innovation. With each stroke of my keyboard, I try to mold ideas into reality, blending function and aesthetics with the finesse of a virtuoso.
         </div>
         <div class="edu">
-          <h2>Education</h2>
+          <div class="header">
+            <h1>Education</h1>
+            <div class="horizontal-bar"></div>
+          </div>
+          
           <h3>BEng (Hons) Software Engineering – University of Westminster - UK</h3>
           <h5>2021 - Present</h5>
           <div class="modules">  
@@ -151,7 +158,10 @@
         </div>
 
         <section class="tech-stack">
-          
+          <div class="header">
+            <h1>Technologies I've been working with recently</h1>
+            <div class="horizontal-bar"></div>
+          </div>
           <!--
           <div class="grid-container">
             <div class="grid-item"><img src="imgs/js.png" alt="tech" /></div>
@@ -169,7 +179,7 @@
             <div class="grid-item"><img src="imgs/git.png" alt="tech" /></div>
             <div class="grid-item"><img src="imgs/photoshop.png" alt="tech" /></div>
           </div> -->
-          <h1>Technologies I've been working with recently</h1>
+         
           <div class="grid">
             <div class="row">
               <h2>Languages</h2>
@@ -228,8 +238,10 @@
       <!-- Projects section -->
       <section class="projects" id="projects">
         <div class="title">
-          <h2>Things I’ve Built</h2>
-          <div class="line"></div>
+          <div class="header">
+            <h1>Things I’ve Built</h1>
+            <div class="horizontal-bar"></div>
+          </div>
         </div>
 
         <div class="project project1">
@@ -274,15 +286,58 @@
 
         <div class="project project2">
           <div class="project-image">
-            <img src="Images/skincons.png" alt="skincons" />
+            <img src="imgs/cinadoc.png" alt="Weateher app" />
           </div>
           <div class="project-details">
             
-            <h1>Consultation Management</h1>
+            <h1>Cinadoc</h1>
 
             <div class="description">
               <p>
-                A full stack application consultations management system using
+                A flutter application for cinnamon plant disease diagonisis using image classification.
+              </p>
+            </div>
+            <ul>
+              <li>CNN</li>
+              <li>Flask</li>
+              <li>MongoDB</li>
+ 
+            </ul>
+            <div class="project-links">
+              <a target="_blank" href="https://github.com/SantheepG/Cinadoc_backend.git">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                  ></path>
+                </svg>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="project project1">
+          <div class="project-image">
+            <img src="imgs/skincare.png" alt="Recipe App" />
+          </div>
+          <div class="project-details">
+            
+            <h1>Skin consultation system</h1>
+
+            <div class="description">
+              <p>
+                A consultation management system using
                 OOP concepts for a skin consultation centre.
               </p>
             </div>
@@ -290,26 +345,68 @@
               <li>Java</li>
               <li>Java-Swing</li>
             </ul>
-            <!-- <div class="project-links">
-              <a href="https://github.com/Isw200/threed">
+            <div class="project-links">
+              <a target="_blank" href="https://github.com/SantheepG/Consultation-management.git">
                 <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                  >
-                    <path
-                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-                    ></path></svg>
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                  ></path>
+                </svg>
               </a>
-              <a href="https://isw200.github.io/threed/">
-                <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"> 
-                  <path d="M21 3L15 3M21 3L12 12M21 3V9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                  </path>
-                  <path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke="currentColor" stroke-linecap="round"></path> </svg>
+
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="project project2">
+          <div class="project-image">
+            <img src="imgs/weatherapp.png" alt="Weateher app" />
+          </div>
+          <div class="project-details">
+            
+            <h1>Weather forecast</h1>
+
+            <div class="description">
+              <p>
+                Anapplication to provide up-to-date weather information of various locations to users. 
+              </p>
+            </div>
+            <ul>
+              <li>ReactJS</li>
+              <li>CSS3</li>
+              <li>Open Weather API</li>
+              <li>GEO API</li>
+            </ul>
+            <div class="project-links">
+              <a target="_blank" href="https://github.com/SantheepG/Weather-forecast.git">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                  ></path>
+                </svg>
               </a>
-            </div> -->
+
+            </div>
           </div>
         </div>
       </section>
