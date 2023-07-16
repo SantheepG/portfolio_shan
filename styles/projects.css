@@ -2,6 +2,7 @@
 .projects {
     width: 60%;
     margin: 10em auto;
+    
   }
   @media screen and (max-width: 768px) {
     .projects {
@@ -65,7 +66,7 @@
   .projects .project .project-details {
     width: 50%;
     text-align: end;
-    margin-left: 50%;
+    margin-left: 55%;
   }
   .projects .project .project-details h3 {
     color: #00ffc5;
@@ -145,6 +146,9 @@
     margin-top: 1em;
     gap: 1em;
     margin-bottom: 1em;
+  }
+  .description{
+    border: 1px solid #911919;
   }
   @media screen and (max-width: 768px) {
     .projects .project {

@@ -8,7 +8,8 @@ html {
   font-family: "Inter", sans-serif;
 }
 body {
-  background-color: #0f1426;
+  background: linear-gradient(to right, #1a1c39, #545691);
+
 }
 .hero {
   height: 100vh;

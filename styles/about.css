@@ -64,8 +64,9 @@
 /* Technologies  */
 .tech-stack {
   width: 60%;
-  margin: 5em auto;
+  margin: 5em auto; 
 }
+
 .tech-stack h1 {
   text-align: center;
   color: #d3d0ff;
